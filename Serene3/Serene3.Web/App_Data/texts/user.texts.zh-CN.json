@@ -1,0 +1,17 @@
+{
+  "Db.Document.Requirement.Attachments": "附件",
+  "Db.Document.Requirement.Contents": "需求内容",
+  "Db.Document.Requirement.CreateBy": "创建人员",
+  "Db.Document.Requirement.CreateTime": "创建时间",
+  "Db.Document.Requirement.Customer": "客户",
+  "Db.Document.Requirement.Developer": "开发人员",
+  "Db.Document.Requirement.EntityPlural": "需求",
+  "Db.Document.Requirement.EntitySingular": "需求",
+  "Db.Document.Requirement.Finishtime": "计划上线时间",
+  "Db.Document.Requirement.Priority": "优先级",
+  "Db.Document.Requirement.Starttime": "开始时间",
+  "Db.Document.Requirement.Subject": "需求名称",
+  "Forms.Membership.Login.FormTitle": "欢迎使用互利内部系统",
+  "Navigation.Document": "项目需求管理",
+  "Navigation.Document/Requirement": "需求管理"
+}

@@ -1,0 +1,46 @@
+﻿@model Serene3.Modules.Document.Requirement.RequirementReadModal
+@using System.Web.Script.Serialization;
+@{
+
+    ViewData["Title"] = "浏览文档";// Serenity.LocalText.Get("Db.TPM.Documents.DocumentsReadPageTitle");
+    Layout = "~/Views/Shared/_LayoutNoNavigation.cshtml";
+}
+
+@section Head {
+    <link rel="stylesheet" href="~/Scripts/fullcalendar/fullcalendar.min.css" />
+    <link rel="stylesheet" href="~/Content/iCheck/flat/blue.css" />
+    <link rel="stylesheet" href="~/Scripts/bootstrap-wysihtml5/bootstrap3-wysihtml5.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.10.2/moment.min.js"></script>
+    <script src="~/Scripts/jquery.icheck.min.js"></script>
+    <script src="~/Scripts/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+    @*<script src="~/Modules/Mmdb/Tickets/"*@
+}
+@{
+
+}
+<!-- /.col -->
+<div>
+    <div class=" box-primary">
+        <div class="box-body no-padding">
+            <div class="article-read-info">
+                <h2 style="margin:10px">@Model.AllRequirement.Subject</h2>
+                <span class="pull-right">
+                    @Model.AllRequirement.CreateBy
+                    <span class="text-muted " style="padding:0 10px "> <i class="fa fa-clock-o"></i> @Model.AllRequirement.CreateTime</span>
+                </span>
+            </div>
+
+            <div class="article-read-message">
+                @Html.Raw(Model.AllRequirement.Contents)
+            </div>
+            <!-- /.article-read-message -->
+        </div>
+        <!-- /.box-body -->
+
+        <div class="box-footer">
+
+        </div>
+    </div>
+    <!-- /. box -->
+</div>
+<!-- /.col -->
