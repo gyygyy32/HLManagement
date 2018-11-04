@@ -51,4 +51,3 @@ C:\01 Code\03 serenity\Serene3\Serene3\Serene3.Web\obj\Debug\Serene3.Web.csproj.
 C:\01 Code\03 serenity\Serene3\Serene3\Serene3.Web\obj\Debug\Serene3.Web.csproj.CopyComplete
 C:\01 Code\03 serenity\Serene3\Serene3\Serene3.Web\obj\Debug\Serene3.Web.dll
 C:\01 Code\03 serenity\Serene3\Serene3\Serene3.Web\obj\Debug\Serene3.Web.pdb
-C:\01 Code\03 serenity\Serene3\Serene3\Serene3.Web\obj\Debug\Serene3.Web.csprojResolveAssemblyReference.cache
