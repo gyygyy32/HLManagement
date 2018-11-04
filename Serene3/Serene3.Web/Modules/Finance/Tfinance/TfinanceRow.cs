@@ -25,9 +25,6 @@ namespace Serene3.Finance.Entities
             set { Fields.Id[this] = value; }
         }
 
-        
-        
-
         [DisplayName("Companyid"), Column("companyid"), NotNull]
         [LookupEditor(typeof(TcompanyRow), InplaceAdd = true)]
         [ForeignKey(typeof(TcompanyRow)), LeftJoin("company"), LookupInclude]
