@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "EncryptDecrypt";
+    //Layout = "~/Views/Shared/_layout.cshtml";
+}
+@section Head{
+}
+<link href="/Content/css/select2.css" rel="stylesheet" type="text/css" />
+<link href="../3rd/bootstrap-datetimepicker/css/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+<div ng-app="chartApp">
+    <div class="box box-primary">
+        <div class="box-header">
+            <h3 class="box-title">Encrypt/Decrypt</h3>
+        </div>
+        <div class="box-body">
+            <h1>Encrypt Decryption</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>Encrypt Info:</label>
+                        <input id="txtEncryptInfo" class="form-control" type="text" />
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="form-group">
+                        <label>日期</label>
+                        <input id="txtValidateTime" name="txtInspectionTime" class="form-control" type="text" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="../3rd/bootstrap-datetimepicker/js/bootstrap-datetimepicker.min.js"></script>
+<script src="../3rd/bootstrap-datetimepicker/js/locales/bootstrap-datetimepicker.zh-CN.js"></script>
+<script>
+    $().ready(function () {
+        $('#txtValidateTime').datetimepicker({
+            language: 'zh-CN',
+            format: 'yyyy-mm-dd',
+            minView: 'month',// 可以看到小时
+            //minuteStep: 1, //分钟间隔为1分
+            initialDate: new Date(),
+        })
+    })
+</script>
+

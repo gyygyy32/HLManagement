@@ -825,6 +825,7 @@
     <Content Include="Modules\Document\Requirement\RequirementRead.cshtml" />
     <Content Include="Content\site\site.Mmdb.less" />
     <Content Include="Modules\Document\Customer\CustomerIndex.cshtml" />
+    <Content Include="Modules\Administration\Cryp\CrypIndex.cshtml" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.3.1.js" />
@@ -1860,6 +1861,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Modules\Administration\AdministrationNavigation.cs" />
+    <Compile Include="Modules\Administration\Cryp\CrypEndPoint.cs" />
+    <Compile Include="Modules\Administration\Cryp\CrypPage.cs" />
+    <Compile Include="Modules\Administration\Cryp\CrypReqRes.cs" />
     <Compile Include="Modules\Administration\Language\LanguageLookup.cs" />
     <Compile Include="Modules\Administration\RolePermission\RolePermissionUpdateRequest.cs" />
     <Compile Include="Modules\Administration\RolePermission\RolePermissionListResponse.cs" />
@@ -1878,6 +1882,7 @@
     <Compile Include="Modules\Administration\User\Authentication\IDirectoryService.cs" />
     <Compile Include="Modules\Administration\User\Authentication\ScriptUserDefinition.cs" />
     <Compile Include="Modules\Administration\User\UserColumns.cs" />
+    <Compile Include="Modules\Common\Cryp\Encrypt.cs" />
     <Compile Include="Modules\Document\Customer\CustomerColumns.cs" />
     <Compile Include="Modules\Document\Customer\CustomerEndpoint.cs" />
     <Compile Include="Modules\Document\Customer\CustomerForm.cs" />
@@ -2083,6 +2088,7 @@
     <Compile Include="Modules\Finance\Tticketstatus\TticketstatusForm.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Folder Include="3rd\" />
     <Folder Include="App_Data\" />
     <Folder Include="Migrations\NorthwindDB\" />
   </ItemGroup>
